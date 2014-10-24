@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Kanes C.V</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<!-- Le styles -->
+    <link rel="stylesheet" title="bootstrap" href="css/bootstrap.css">
+
+    <link rel="alternate stylesheet" title="bootstrap-1" href="css/bootstrap-1.css">
+    <link rel="alternate stylesheet" title="bootstrap-2" href="css/bootstrap-2.css">
+    <link rel="alternate stylesheet" title="bootstrap-3" href="css/bootstrap-3.css">
+    <link rel="alternate stylesheet" title="bootstrap-4" href="css/bootstrap-4.css">
+    <link rel="alternate stylesheet" title="bootstrap-5" href="css/bootstrap-5.css">
+    <link rel="alternate stylesheet" title="bootstrap-6" href="css/bootstrap-6.css">
+    <link rel="alternate stylesheet" title="bootstrap-7" href="css/bootstrap-7.css">
+	
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    
+    <link rel="stylesheet" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+ 
+ 	<script>   
+    function setActiveStyleSheet(title)
+	{
+		var i, a, main;
+		for(i=0; (a = document.getElementsByTagName("link")[i]); i++) 
+		{
+			if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title")) 
+			{
+				a.disabled = true;
+				if(a.getAttribute("title") == title) a.disabled = false;
+			}
+		}
+	}
+    </script>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top hidden-desktop">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Kanes C.V.</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="#" onClick="$('html,body').animate({scrollTop: $('#work-experience').offset().top}, 1500);">Work experience</a></li>
+              <li><a href="#" onClick="$('html,body').animate({scrollTop: $('#skills').offset().top}, 1500);">Skills</a></li>
+              <li><a href="#portifolio" onClick="$('html,body').animate({scrollTop: $('#portifolio').offset().top}, 1500);">Portifolios</a></li>
+              <li><a href="#education" onClick="$('html,body').animate({scrollTop: $('#education').offset().top}, 1500);">Education</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+    <div style="position:fixed; top:20%; left:0;">
+
+    </div>
+        <div class="row">
+        	<div id="column-1" class="span6">
+                <div class="row">
+                    <div id="infoyou" class="span6">
+                    	<div class="breadcrumb">
+                        	<div class="span1">
+                        		<img src="img/person.png" class="">
+							</div>
+                            <div class="span4">
+                            	<h1>Kane Bycroft</h1>
+                            </div>
+
+                            <div class="span4">							
+                                <a href="#" rel="popover" class="pull-right" data-content="<strong>14 dorchester way</strong> <br> Wirral CH43 9JJ <br> P: " data-original-title="Adress">
+                                    <img src="img/address.png" width="24">
+                                </a>
+                                <a href="#" class="tooltip-test pull-right" data-original-title="kaney_lfc14@hotmail.com">
+                                    <img src="img/email.png" width="24">
+                                </a>
+                                <a href="#" class="tooltip-test pull-right" data-original-title="0151 653 8741">
+                                    <img src="img/phone.png" width="24">
+                                </a>
+                                <a href="#" class="tooltip-test pull-right" data-original-title="07584411711">
+                                    <img src="img/mobile.png" width="24">
+                                 </a>
+							</div>
+                            
+                            <div class="span5">
+                                <p>
+                                    My name is Kane Bycroft, I am originally from a place called <a href="https://www.google.co.uk/maps/place/Grimsby,+North+East+Lincolnshire/@53.567471,-0.080784,7z/data=!4m2!3m1!1s0x47d62825741ebd27:0x5df6b9d25ad12bf8">Grimsby,UK</a> but in 2012 i moved to Merseyside, Wirral. I am Year 11 student at Ridgeway High school and I am studying english, maths, science(BTEC), Physical Education(GCSE) Businesss Studies and Georgraphy(GCSE. In my free time I like to play football, and i support <a href="http://www.liverpoolfc.com/">Liverpool FC</a>.
+                                </p>
+                            </div>
+                            
+                            <div class="clearfix"></div>
+                        </div>
+                    </div><!--/infoyou-->
+                </div><!--/row-->
+                <div class="row">
+                    <div class="span6">
+                        <div id="work-experience" class="breadcrumb">
+                            <legend><h2>Work experience</h2></legend>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span5">
+                                        <span class="label label-info">Warrant Group - IT</span>
+                                        <a class="tooltip-test" data-original-title="Current work">
+                                            <img src="img/current.png" width="32">
+                                        </a>
+                                        <br>
+                                        <a href="http://www.warrant-group.com/">Warrant Group</a> are a company that manage shipping <br><br>
+                                        <h4><u>What I Did</u></h4> <br>
+                                        <p>I learnt the basics of IT, took apart a computer, re-built it adding more parts, I learnt a bit about coding and I made this C.V!</p>
+                                    </div><!--/span5-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <hr>
+
+                            <a class="hidden-desktop pull-right" onClick="$('html,body').animate({scrollTop: $('#infoyou').offset().top}, 1500);"><i class="icon-circle-arrow-up" style="cursor:pointer;"></i></a>
+                            <div class="clearfix"></div>
+                            
+                        </div><!--/breadcrumb-->
+            		</div><!--/span6-->
+        		</div><!--/row-->
+                <div class="row">
+                    <div class="span6">
+                        <div id="education" class="breadcrumb">
+                            <legend><h2>Education</h2></legend>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span5">
+                                        <span class="label label-info">Ridgeway High School</span> <span class="label label-inverse">2012-2015</span>
+                                        <br><br>
+                                        <a href="http://www.ridgewayhighschool.co.uk/">Ridgeway High School</a> where I currently study is located on Noctorum Avenue, Prenton, Wirral, CH43 9EB. It holds high reviews from Ofsted and appears to be a succesful school
+                                    </div><!--/span5-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <hr>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span5">
+                                        <span class="label label-info">Healing School (Academy)</span> <span class="label label-inverse">2010-2012</span>
+                                        <br><br>
+                                        <a href="http://www.healingssc.co.uk/">Healing School (Academy)</a> where I studied before moving to liverpool, is also a successful school with high reviews from ofsted but is an Academy. It is located on Low Road, Healing, Grimsby, NE Lincs, DN41 7QD.
+                                    </div><!--/span5-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+
+                            <a class="hidden-desktop pull-right" onClick="$('html,body').animate({scrollTop: $('#infoyou').offset().top}, 1500);"><i class="icon-circle-arrow-up" style="cursor:pointer;"></i></a>
+                            <div class="clearfix"></div>
+                            
+                        </div><!--/breadcrumb-->
+            		</div><!--/span6-->
+        		</div><!--/row-->
+                <div class="row">
+                    <div class="span6">
+                        <div id="education" class="breadcrumb">
+                            <legend><h2>Referees</h2></legend>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span5">
+                                        <span class="label label-info">David Roff</span>
+                                        <br><br>
+                                        <div class="span4">
+                                            <a href="mailto:david.roff@warrant-group.com?subject=Kane" data-original-title="david.roff@warrant-group.com">
+                                                <img src="img/email.png" width="24"> E-Mail: david.roff@warrant-group.com
+                                            </a> <br>
+                                            <a href="#" data-original-title="0151 955 0691">
+                                                <img src="img/phone.png" width="24"> Phone: 0151 955 0691
+                                            </a><br>
+                                            <a href="#" data-original-title="07811 169371">
+                                                <img src="img/mobile.png" width="24"> Mobile: 07811 169371
+                                            </a>
+                                        </div>
+                                    </div><!--/span5-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <hr>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span5">
+                                        <span class="label label-info">Jarrad Bycroft</span>
+                                        <br><br>
+                                        <div class="span4">
+                                            <a href="mailto:jarrad.bycroft@warrant-group.com?Subject=Kane" data-original-title="jarrad.bycroft@warrant-group.com">
+                                                <img src="img/email.png" width="24"> E-Mail: jarrad.bycroft@warrant-group.com
+                                            </a> <br>
+
+                                            <a href="#" data-original-title="0151 955 0670">
+                                                <img src="img/phone.png" width="24"> Phone: 0151 955 0670
+                                            </a><br>
+                                            <a href="#" data-original-title="07790 907277">
+                                                <img src="img/mobile.png" width="24"> Mobile: 07790 907277
+                                            </a>
+                                        </div>
+                                    </div><!--/span5-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <a class="hidden-desktop pull-right" onClick="$('html,body').animate({scrollTop: $('#infoyou').offset().top}, 1500);"><i class="icon-circle-arrow-up" style="cursor:pointer;"></i></a>
+                            <div class="clearfix"></div>
+
+                        </div><!--/breadcrumb-->
+                    </div><!--/span6-->
+                </div><!--/row-->
+            </div><!--/span6-->
+            <div id="column-2" class="span6">
+                <div class="row">
+                    <div id="QuicContact" class="span6 pagination-centered hidden-phone">
+						<div class="breadcrumb">
+                        	<a href="https://www.facebook.com/kane.bycroft.3" class="tooltip-test" data-original-title="Facebook">
+                            	<img src="img/facebook.png" width="32">
+                            </a>
+                            <a href="https://twitter.com/KaneBycroft" class="tooltip-test" data-original-title="Twitter">
+                            	<img src="img/twitter.png" width="32">
+							</a>
+                            <a href="https://www.linkedin.com/profile/view?id=379603996&trk=nav_responsive_tab_profile" class="tooltip-test" data-original-title="LinkedIn">
+                            	<img src="img/linkedin.png" width="32">
+                            </a>
+                        </div>
+                    </div><!--/quickcontact-->
+                </div><!--/row-->
+                <div class="row">
+                    <div class="span6">
+                        <div id="skills" class="breadcrumb">
+                            <legend><h2>Skills-GCSE</h2></legend>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-success">IT</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-success progress-striped active">
+                                            <div class="bar" style="width: 93%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-success">English</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-success progress-striped active">
+                                            <div class="bar" style="width: 85%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-success">BTEC Science</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-success progress-striped active">
+                                            <div class="bar" style="width: 79%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-success">PE</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-success progress-striped active">
+                                            <div class="bar" style="width: 72%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-success">Maths</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-success progress-striped active">
+                                            <div class="bar" style="width: 69%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-warning">Business</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-warning progress-striped active">
+                                            <div class="bar" style="width: 55%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span1">
+                                        <span class="label label-important">Geography</span>
+                                    </div><!--/span1-->
+                                    <div class="span4">
+                                        <div class="progress progress-danger progress-striped active">
+                                            <div class="bar" style="width: 36%"></div>
+                                        </div><!--/progress bar-->
+                                    </div><!--/span4-->
+                                </div><!--/span6-->
+                            </div><!--/row-->
+                            
+                            <a class="hidden-desktop pull-right" onClick="$('html,body').animate({scrollTop: $('#infoyou').offset().top}, 1500);"><i class="icon-circle-arrow-up" style="cursor:pointer;"></i></a>
+                            <div class="clearfix"></div>
+                            
+                        </div><!--/breadcrumb-->
+            		</div><!--/span6-->
+        		</div><!--/row-->
+                <div class="row">
+                    <div class="span6">
+                        <div id="portifolio" class="breadcrumb">
+                            <legend><h2>Interests</h2></legend>
+                            <div class="row">
+                                <div class="span6">
+                                	<div id="gallery">
+                                        <ul class="thumbnails">
+                                            <li class="span5">
+                                                <a href="http://www.zuqiuzixunwang.com/zb_users/upload/2014/5/2014050652186109.jpg" class="thumbnail" title="Liverpool FC">
+                                                    <img src="http://www.zuqiuzixunwang.com/zb_users/upload/2014/5/2014050652186109.jpg" alt="" height="270" width="470">
+                                                </a>
+                                            </li>
+                                            <li class="span3">
+                                                <a href="http://3d-world.com/wp-content/uploads/2013/06/e20734aane-render_1-270x120.jpg?c43944" class="thumbnail" title="XBOX ONE">
+                                                    <img src="http://3d-world.com/wp-content/uploads/2013/06/e20734aane-render_1-270x120.jpg?c43944" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="span2">
+                                                <a href="http://i1.tribune.com.pk/wp-content/uploads/2014/05/708024-football-1400014746-322-160x120.jpg" class="thumbnail" title="Football">
+                                                    <img src="http://i1.tribune.com.pk/wp-content/uploads/2014/05/708024-football-1400014746-322-160x120.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="span3">
+                                                <a href="http://www.techindustriya.com/backspace/wp-content/uploads/2013/03/cougar-evolution-270x120.jpg" class="thumbnail" title="PC">
+                                                    <img src="http://www.techindustriya.com/backspace/wp-content/uploads/2013/03/cougar-evolution-270x120.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li class="span2">
+                                                <a href="http://cdn.kidscreen.com/wp/wp-content/uploads/2013/10/netflix-160x120.jpg?748821" class="thumbnail" title="Netflix">
+                                                    <img src="http://cdn.kidscreen.com/wp/wp-content/uploads/2013/10/netflix-160x120.jpg?748821" alt="">
+                                                </a>
+                                            </li>
+                                        </ul>
+									</div>
+                                </div><!--/span6-->
+                            </div><!--/row-->
+
+                        </div><!--/breadcrumb-->
+                    </div><!--/span6-->
+                </div><!--/row-->
+                <div class="row">
+                    <div class="span6">
+                        <div id="education" class="breadcrumb">
+                            <legend><h2>Contact me</h2></legend>
+                            <div class="row">
+                                <div class="span6">
+                                    <div class="span5">
+                                        <div class="span4">
+                                            <form action="page2.php" method="post">
+                                            First name: <input type="text" name="fname"><br>
+                                            Last name: <input type="text" name="lname"><br>
+                                            E-Mail: <input type="text" name="email"><br>
+                                                Comment: <textarea name="message" rows="5" cols="40">Enter message here</textarea>
+                                            <input type="submit" value="Submit">
+                                                </form>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+                            <a class="hidden-desktop pull-right" onClick="$('html,body').animate({scrollTop: $('#infoyou').offset().top}, 1500);"><i class="icon-circle-arrow-up" style="cursor:pointer;"></i></a>
+                            <div class="clearfix"></div>
+                            
+                        </div><!--/breadcrumb-->
+            		</div><!--/span6-->
+        		</div><!--/row-->
+            </div><!--/span6-->
+		</div><!--/row-->
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/application.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+    
+    <!-- Ativando o jQuery lightBox plugin -->
+    <script type="text/javascript">
+    $(function() {
+        $('#gallery a').lightBox();
+    });
+    </script>
+    
+  </body>
+</html>
